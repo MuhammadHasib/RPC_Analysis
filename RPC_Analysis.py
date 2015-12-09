@@ -45,7 +45,6 @@ for row in data0:
    elif vmons.has_key(id) : vmon = vmons[id]
    else                   : vmon = -1.
    #print "test"
-
    name = endcap[int(row["id"])]
    date = row["date"]
    date2 = datetime.datetime.strptime(date, "%Y.%m.%d %H:%M:%S")
